@@ -1,9 +1,11 @@
+import java.util.Date;
 
 public class BubbleSort implements SortStrategy {
 	long startTime = 0;
 	long endTime   = 0;
 	long totalTime = 0;
 	
+	@Override
 	public long[] sort(long[] ar) {
 		startTime = System.currentTimeMillis();
 		   for (int i = (ar.length - 1); i >= 0; i--)
@@ -23,17 +25,20 @@ public class BubbleSort implements SortStrategy {
 		   return ar;
 	}
 	
+	@Override
 	public long getSortTime() {
 		return totalTime;
 	}
 	
-	/*public void resetTimer() {
+	@Override
+	public void resetTimer() {
 		startTime = 0;
 		endTime = 0;
-	}*/
+	}
 	
+	@Override
 	public String strategyName() {
-		return "BubbleSort";
+		return "Bubble Sort";
 	}
 
 }
