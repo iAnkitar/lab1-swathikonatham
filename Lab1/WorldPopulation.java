@@ -35,13 +35,16 @@ public class WorldPopulation {
 			// reads each line
 			while((line = reader.readLine()) != null) {
 				StringTokenizer tokenizer = new StringTokenizer(line, ",");
-				//read first column - Country
-				tokenizer.nextToken();
-				//read second column - year
-				tokenizer.nextToken();
-				//read third column - population count and parse it to Long
-				long count = Long.parseLong(tokenizer.nextToken());
-				population[i++] = count;
+				while(tokenizer.hasMoreTokens()) {
+					//read first column - Country
+					tokenizer.nextToken();
+					//read second column - year
+					tokenizer.nextToken();
+					//read third column - population count and parse it to Long
+					long count = Long.parseLong(tokenizer.nextToken());
+					population[i++] = count;
+				}
+				
 			}
 			reader.close();
 		} catch (Exception e) {
