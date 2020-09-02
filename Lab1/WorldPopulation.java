@@ -59,6 +59,7 @@ public class WorldPopulation {
 		sortStrategy.sort(population);
 		System.out.println("The sorting method used is: " + sortStrategy.strategyName());
 		System.out.println("The total time taken for sorting is: " + sortStrategy.getSortTime() + " milliseconds.");
+		System.out.println();
 		
 	}
 	
@@ -74,7 +75,11 @@ public class WorldPopulation {
 		
 		//Invoke Bubble Sort
 		worldPopulation.setStrategy(new BubbleSort());
-		worldPopulation.sortPopulation();	
+		worldPopulation.sortPopulation();
+		
+		//Invoke Selection Sort
+		worldPopulation.setStrategy(new SelectionSort());
+		worldPopulation.sortPopulation();
 	}
 
 }
