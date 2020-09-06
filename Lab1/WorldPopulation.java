@@ -1,3 +1,10 @@
+/* CSCI-513: Lab-1
+ * Team - Swathi Reddy Konatham (Z1864290)
+ *        Ankita Ratnaparkhi (Z1907718)
+ * ClassName - WorldPopulation
+ * Description - Main class for WorldPopulation
+ * */
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
