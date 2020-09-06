@@ -1,3 +1,11 @@
+/* CSCI-513: Lab-1
+ * Team - Swathi Reddy Konatham (Z1864290)
+ *        Ankita Ratnaparkhi (Z1907718)
+ * ClassName - SelectionSort
+ * Description - Implementation of Selection Sort
+ * */
+
+
 public class SelectionSort implements SortStrategy {
 	long startTime = 0;
 	long endTime   = 0;
