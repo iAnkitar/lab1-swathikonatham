@@ -13,7 +13,7 @@ Output:
 
 Implementation of Sorting strategies using input file: <br/>
 The sorting method used is: Bubble Sort<br/>
-The total time taken for sorting is: 186 milliseconds.<br/>
+The total time taken for sorting is: 1 milliseconds.<br/>
 The sorting method used is: Selection Sort<br/>
 The total time taken for sorting is: 61 milliseconds.<br/>
 The sorting method used is: Insertion Sort<br/>
@@ -21,7 +21,7 @@ The total time taken for sorting is: 1 milliseconds.<br/><br/>
 
 Implementation of Sorting strategies on sorted data:<br/>
 The sorting method used is: Bubble Sort<br/>
-The total time taken for sorting is: 49 milliseconds.<br/>
+The total time taken for sorting is: 0 milliseconds.<br/>
 The sorting method used is: Selection Sort<br/>
 The total time taken for sorting is: 56 milliseconds.<br/>
 The sorting method used is: Insertion Sort<br/>
